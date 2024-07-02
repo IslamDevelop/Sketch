@@ -1,0 +1,62 @@
+
+
+.main {
+    display: flex;
+    gap: 70px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonOne {
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    max-width: 180px;
+}
+.buttonTwo {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    max-width: 180px;
+}
+.buttonThree {
+    background: linear-gradient(rgb(134, 15, 15),blue,yellow) ;
+    color: white;
+    font-size: 20px;
+    max-width: 180px;
+
+}
+.sidebar {
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+
+.display {
+    display: grid;
+    grid-template-columns: repeat(16, 30px);
+    grid-template-rows: repeat(16, 30px);
+    gap: 1px;
+}
+
+.display2 {
+    display: grid;
+    grid-template-columns: repeat(32, 30px);
+    grid-template-rows: repeat(32, 30px);
+    gap: 1px;
+}
+
+.block {
+    background-color: rgb(239, 239, 239);
+    border: 1px solid rgb(0, 0, 0);
+    width: 30px;
+    height: 30px;
+}
+
+.black {
+    background-color: black;
+}
+.input1 {
+    width: max-content;
+}
